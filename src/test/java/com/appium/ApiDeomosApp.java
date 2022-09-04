@@ -14,10 +14,10 @@ public class ApiDeomosApp {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 
         desiredCapabilities.setCapability("platformName", "Android");
-        desiredCapabilities.setCapability("platformVersion","7.0");
-        desiredCapabilities.setCapability("deviceName", "Pixel_2");
+        desiredCapabilities.setCapability("platformVersion","10.0");
+        desiredCapabilities.setCapability("deviceName", "Api_29");
         desiredCapabilities.setCapability("automationName","UiAutomator2");
-        desiredCapabilities.setCapability("app", "C:\\Users\\YSMNI\\IdeaProjects\\AppiumAutomationProject\\API Demos for Android_v1.9.0_apkpure.com.apk");
+        desiredCapabilities.setCapability("app", "C:\\Users\\asus\\IdeaProjects\\AppiumAutomationProject\\Calculator.apk");
 
         AndroidDriver<AndroidElement> driver =  new AndroidDriver<AndroidElement>(new URL("http:localhost:4723/wd/hub"),desiredCapabilities);
 
